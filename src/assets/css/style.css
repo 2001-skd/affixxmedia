@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+/* default style starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+/* default style ends */
+
+/* about content style strats */
+.about_card::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(67, 87, 57);
+  left: -48px;
+  top: 20px; /* Adjust as per your layout */
+  box-shadow: 0 0 10px rgb(67, 87, 57);
+}
+/* about content style ends*/
